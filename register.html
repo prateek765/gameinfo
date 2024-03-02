@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GameInfo - Your Ultimate Gaming Resource</title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/logo.ico">
+  <!-- GOOGLE FONTS CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="login_register_edit_create.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/main.jpg" alt="GameInfo Logo">
+                <h1>GameInfo</h1>
+            </div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="gamecategory.html">Games</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="create.html">Create Post</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="bg4">
+        <div class="main-container">
+          <div class="box">
+            <h1 class="formName">Register</h1>
+            <form>
+              <label>Username</label>
+              <input type="text" formControlName="username" minlength="3" required />
+    
+              <label>Email</label>
+              <input type="email" formControlName="email" required />
+    
+              <label>Password</label>
+              <input type="password" formControlName="password" minlength="6" required />
+    
+              <label>Confirm Password</label>
+              <input type="password" formControlName="repassword" minlength="6" required />
+    
+              <button class="submitBtn" type="submit">Register</button>
+            </form>
+            <p class="login-register">
+              Already have an account? <a href="login.html">Login here</a>
+            </p>
+          </div>
+        </div>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <div class="navBar">
+            <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="textArea">
+            <h1>Designed with<span class="red"> ❤</span> by
+              <a><span class="colored">Flame</span></a> | Distributed by
+              <a><span class="colored">flames.co</span></a>
+            </h1>
+          </div>
+        </div>
+      </footer>
+    
+    </body>
+    <script src="js/navbar.js"></script>
+    
+    </html>

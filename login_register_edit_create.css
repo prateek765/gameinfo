@@ -1,0 +1,218 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8800;
+}
+
+main {
+    margin-top: 0px;
+    height: auto;
+    min-height: 750px;
+    font-family: "Roboto", sans-serif;
+}
+.bg1 {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./img/banner1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.bg2 {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     url('./img/background2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.bg3 {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./img/background3.gif");
+    background-size: cover;
+    background-position: center;
+}
+.bg4 {
+    background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./img/banner2.png");
+    background-size: cover;
+    background-position: center;
+}
+main .main-container {
+    margin: auto;
+    padding: 60px 0;
+}
+main .box {
+    padding: 20px 0px;
+    width: 360px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.301);
+}
+
+main .wideBox {
+    width: 460px;
+}
+
+main .formName {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main form {
+    width: 85%;
+    margin: auto;
+}
+main form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+main form input,
+main form select {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+main form textarea {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    resize: none;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+main form .submitBtn {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+main form .submitBtn:hover {
+    background-color: #1f2024;
+}
+main .box p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+main .box .login-register {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+main .box .login-register a {
+    color: #49c1a2;
+    cursor: pointer;
+}
+
+main .box .login-register a:hover {
+    color: orange;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #1f2024;
+}
+
+footer .navBar {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+footer .navBar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer .navBar li a {
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+footer .navBar li a:hover {
+    color: #0ee6af;
+}
+
+footer .textArea {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+
+footer .textArea h1 {
+    color: white;
+    margin: 5px 15px;
+}
+
+footer .textArea .red {
+    color: red;
+}
+
+footer .textArea .colored {
+    color: #0ee6af;
+}

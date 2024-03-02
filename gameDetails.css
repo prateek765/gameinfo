@@ -1,0 +1,202 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font: 16px sans-serif;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.2s ease;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box; /* Add box-sizing to ensure proper spacing */
+}
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%; /* Adjust max-width for full-screen responsiveness */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8800;
+}
+/* Main Section Styles */
+main {
+    width: 100%;
+    max-width: 100%; /* Make it responsive */
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.main-container {
+    max-width: 100%; /* Adjust max-width for responsiveness */
+    width: 100%; /* Add width to cover the whole website */
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+/* Post Styles */
+.postArea {
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.postArea img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.postArea .textArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center align text and options */
+}
+
+.postArea .textArea h1 {
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    margin: 8px 0;
+}
+ .postArea h2 {
+    margin-bottom: 10px;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 30px;
+}
+
+ .postArea h2 a {
+    color: #aaaaaa;
+}
+
+ .postArea h2 a:hover {
+    color: #75dab0;
+}
+
+
+.postArea .options {
+    text-align: end;
+}
+
+.postArea .options a {
+    display: inline-block;
+    margin: 5px 5px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.postArea .options a:hover {
+    color: #75dab0;
+}
+
+.postArea hr {
+    border: 2px solid #e0e0e0;
+    margin-bottom: 10px; /* Increase margin for better spacing */
+}
+
+
+/* btn styles */
+section .btnArea {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 15px;
+}
+section .btnArea .btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(99, 202, 159);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+section .btnArea .btn:hover {
+    background-color: #1f2024;
+}
+
+section .downloadArea {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff8800;
+}

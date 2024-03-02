@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GameInfo - Your Ultimate Gaming Resource</title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/logo.ico">
+  <!-- GOOGLE FONTS CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="login_register_edit_create.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/main.jpg" alt="GameInfo Logo">
+                <h1>GameInfo</h1>
+            </div>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="gamecategory.html">Games</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="create.html">Create Post</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="bg3">
+        <div class="main-container">
+          <div class="box wideBox">
+            <h1 class="formName">Create Game</h1>
+            <form>
+              <label>Name</label>
+              <input type="text" formControlName="name" name="name" minlength="3" required />
+    
+              <label>Game Type</label>
+              <select name="type" formControlName="type" required>
+                <option disabled selected value="">Select Game Type</option>
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="simulation">Simulation</option>
+                <option value="survival">Survival</option>
+                <option value="sports">Sports</option>
+                <option value="racing">Racing</option>
+                <option value="horror">Horror</option>
+              </select>
+    
+              <label>Image URL</label>
+              <input type="text" formControlName="imageURL" name="imageURL" required pattern="^(https?:\/\/).*\.(jpg|png)$">
+    
+              <label>Description</label>
+              <textarea formControlName="description" name="description" required minlength="10"></textarea>
+    
+              <label>Price</label>
+              <input type="number" formControlName="price" name="price" min="0" required>
+    
+              <label>Download URL</label>
+              <input type="text" formControlName="downloadURL" name="downloadURL" required pattern="^(https?:\/\/).*$">
+    
+              <button class="submitBtn" type="submit">Create Game</button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="navBar">
+            <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+          </div>
+          <div class="textArea">
+            <h1>Designed with<span class="red"> ❤</span> by
+              <a><span class="colored">Flame</span></a> | Distributed by
+              <a><span class="colored">flames.co</span></a>
+            </h1>
+          </div>
+        </div>
+      </footer>
+    
+    </body>
+    <script src="script.js"></script>
+    
+    </html>
