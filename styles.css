@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -125,7 +125,7 @@ section .article-area {
     column-gap: 2%;
 }
 
-/* ... (existing CSS above) ... */
+
 
 /* Article Styles */
 section .buttonArea {
